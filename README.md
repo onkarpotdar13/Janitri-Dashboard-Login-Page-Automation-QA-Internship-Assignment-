@@ -3,14 +3,15 @@ This project is my QA Internship Assignment for automating the Login Page of the
 
 It includes manual and automated test cases for various login scenarios — without using valid credentials.
 
-/src
- ├── main/java/com/pom
- │    └── LoginPage.java         # Page Object class with locators & actions
- ├── test/java/com/tests
- │    ├── BaseTest.java          # Browser setup & teardown
- │    └── LoginTest.java         # TestNG test methods
-master.xml                       # TestNG suite file (runs all tests)
-pom.xml                          # Maven dependencies
+ /src  
+ ├── main/java/com/pom  
+ │    └── LoginPage.java         # Page Object class with locators & actions  
+ ├── test/java/com/tests  
+ │    ├── BaseTest.java          # Browser setup & teardown  
+ │    └── LoginTest.java         # TestNG test methods  
+pom.xml                          # Maven dependencies  
+master.xml                       # TestNG suite file (runs all tests)  
+
 
 
 
@@ -66,6 +67,8 @@ Validate presence of page elements (title, input fields, eye icon, logos, etc.)
 | `testPasswordMaskingToggle()`                | ✅ Pass |
 | `testLoginWithBlankFields()`                 | ❌ Fail |
 | `testPresenceOfPageElements()`               | ✅ Pass |
+
+
 
 
 **Creator Name:** Onkar Potdar  
