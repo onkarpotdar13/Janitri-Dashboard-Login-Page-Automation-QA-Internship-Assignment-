@@ -9,8 +9,8 @@ It includes manual and automated test cases for various login scenarios — with
  ├── test/java/com/tests
  │    ├── BaseTest.java          # Browser setup & teardown
  │    └── LoginTest.java         # TestNG test methods
-pom.xml                          # Maven dependencies
 master.xml                       # TestNG suite file (runs all tests)
+pom.xml                          # Maven dependencies
 
 📌 Assignment Requirements Covered
 Java + Selenium WebDriver for automation
@@ -35,6 +35,9 @@ Attempt login with blank fields and verify UI behavior
 Enter any random credentials and click login – capture and print the error message shown
 Validate password masking/unmasking toggle
 Validate presence of page elements (title, input fields, eye icon, logos, etc.)
+
+
+
 
 | Test Method                                  | Result |
 | -------------------------------------------- | ------ |
